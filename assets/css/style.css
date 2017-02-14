@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-image: url("../images/concrete_seamless.png");
+	/*width: 960px;*/
+	margin: auto;
+
+}
+
+
+
+header{
+	background-color: white;
+	
+}
+
+header nav li{
+	float: right;
+	text-align: center;
+}
+
+header h1 {
+	float: left;
+}
+.wrapper{
+	width: 960px;
+	margin: auto;
+}
+
+
+#main{
+
+	width: 650px;
+	background-color: white;
+	float: left;
+}
+
+#sidebar {
+	width: 270px;
+	background-color: white;
+	float: left;
+}
+
+footer {
+	clear: both;
+	height: 100px;
+	background-color: #666;
+	border-top: 8px solid #4fa9a4;
+}
