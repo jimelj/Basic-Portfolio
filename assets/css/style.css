@@ -86,8 +86,12 @@ footer {
 	position: fixed;
     bottom: 0;
     width: 100%;
-    color: fff;
 
+
+}
+
+footer p {
+	color: white;
 }
 .social {
 	height: 60px;
