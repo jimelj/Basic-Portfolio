@@ -1,6 +1,11 @@
 * {
 	box-sizing: border-box;
+	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
 
+p{
+	
 }
 body {
 	background-image: url("../images/concrete_seamless.png");
@@ -14,8 +19,8 @@ body {
 
 header{
 	background-color: white;
-	height: 65px;
-	/*font-size: 25px;*/
+	height: 92px; 
+	border-bottom: 2px solid #cfcfcf;
 
 
 	
@@ -26,23 +31,20 @@ header nav li{
 	text-align: center;
 }
 
-h1 {
-	color: white;
-	font-size: 25px;
-	height: 65px;
+header h1 {
 	float: left;
 	/*margin-left: 312px;*/
-	padding: 20px;
+	/*padding: 32.5px 0;*/
+	padding: 32.5px;
 	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 25px;
 	box-sizing: border-box;
-	width: 250px;
-	margin-left: 200px;
-	clear: both;
-
+	font-weight: bold;
 	
 	
 }
-.wrapper{
+.wrapper, .hWrapper{
 	clear: both;
 	width: 960px;
 	margin: auto;
@@ -54,6 +56,7 @@ h1 {
 	width: 650px;
 	background-color: white;
 	float: left;
+	border: 1px solid #cccccc;
 }
 
 img {
@@ -66,10 +69,11 @@ img {
 	width: 270px;
 	height: 200px;
 	background-color: white;
-	float: left;
+	float: right;
 	text-align: center;
 	padding: 30px;
 	margin: auto;
+	border: 1px solid #cfcfcf;
 }
 
 footer {
@@ -77,6 +81,12 @@ footer {
 	height: 100px;
 	background-color: #666;
 	border-top: 8px solid #4aaaa5;
+	text-align: center;
+
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+
 }
 .social {
 	height: 60px;
@@ -85,6 +95,17 @@ footer {
 	box-sizing: content-box;
 
 }
+
+h1, h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+
+}
+
+.wrapper {
+	margin-top: 10px;
+}
+
 
 
 
