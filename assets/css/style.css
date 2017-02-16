@@ -69,6 +69,7 @@ header h1 {
 	border: 1px solid #cccccc;
 	padding: 25px;
 	height: auto;
+	margin-top: 30px;
 
 }
 
@@ -87,7 +88,7 @@ img {
 	float: right;
 	text-align: center;
 	padding: 25px;
-	margin: auto;
+	margin-top: 30px;
 	border: 1px solid #cfcfcf;
 	font-size: 20px;
 
@@ -102,6 +103,7 @@ footer {
 	border-top: 8px solid #4aaaa5;
 	text-align: center;
 	padding-top: 38px;
+	margin-top: 250px;
 	position: fixed;
     bottom: 0;
     width: 100%;
