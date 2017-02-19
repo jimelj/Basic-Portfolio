@@ -132,12 +132,13 @@ h2 {
     padding: 20px;
 }
 
+
 /*li {
     border-right: 1px solid #bbb;
 }*/
 
 li:last-child {
-   /* border-right: none;*/
+    /* border-right: none;*/
     padding-right: 0;
 }
 
@@ -147,4 +148,20 @@ nav a {
 
 html {
     margin-bottom: 100px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
 }
