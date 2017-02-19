@@ -3,7 +3,9 @@
     color: #777777;
 }
 
-p {
+p,
+a,
+form {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -129,7 +131,7 @@ h2 {
 }
 
 #main h2 {
-    padding: 20px;
+    padding: 20px 0;
 }
 
 
@@ -164,4 +166,23 @@ a:hover {
 
 a:active {
     text-decoration: underline;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #eeeeee;
+}
+
+input[name] {
+    margin: 10px 0;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+    border-color: #eeeeee;
+    padding: 10px;
+    margin: 10px 0;
 }
